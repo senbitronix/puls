@@ -1,0 +1,29 @@
+.consultation__title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  line-height: 0.8;
+  &_review {
+    margin: 0;
+    margin-bottom: -30px;
+  }
+}
+
+.subtitle {
+  line-height: 0.8;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d0d0d;
+}

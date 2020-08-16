@@ -1,0 +1,18 @@
+.catalog__header {
+    transition: 0.3s;
+    &_left {
+        transform: translateX(-50%)
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.appear {
+    display: block;
+}
+
+.testing {
+    background-color: red;
+}

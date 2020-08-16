@@ -1,0 +1,31 @@
+.carousel {
+    padding-top: 108px;
+    padding-bottom: (108px - 53px)/2;
+    &__wrapper {
+        position: relative;
+        max-width: 750px;
+        margin: 0 auto;      
+        padding: 0 70px 0 66px;
+        box-sizing: content-box;
+        img {
+            max-width: 100%;
+        }
+    }
+    &__arrow {
+        width: 31px;
+        height: 50px;
+        padding: 0;
+        border: none;
+        background-color: white;
+        top: 50%;        
+        z-index: 1;
+        position: absolute;
+        margin-top: -25px;
+    }
+    &__prev {
+        left: 0;        
+    }
+    &__next {
+        right: 0;        
+    }
+}
